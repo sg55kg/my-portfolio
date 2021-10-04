@@ -23,7 +23,7 @@
 
 .home-desc p {
     text-align: center;
-    background-color: rgba(179, 248, 237, 0.7);
+    background-color: rgba(179, 248, 237, 0.75);
     border-radius: .5em;
     padding: 1em;
     width:30em;
@@ -43,7 +43,7 @@
 }
 
 .skills button {
-    background-color: rgba(179, 248, 237, 0.7);
+    background-color: rgba(179, 248, 237, 0.75);
     border: none;
     border-radius: .5em;
     height: 2.5em;
