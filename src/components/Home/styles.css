@@ -1,0 +1,52 @@
+.home-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.home-desc {
+    /* background-color: rgba(57, 238, 193, 0.377); */
+    width: 70%;
+    height: max-content;
+    margin-top: 3em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-desc h3 {
+    margin: 0;
+    text-align: center;
+    color: rgb(179, 248, 237);
+    font: 2em 'Roboto-mono', monospace;
+}
+
+.home-desc p {
+    text-align: center;
+    background-color: rgba(179, 248, 237, 0.7);
+    border-radius: .5em;
+    padding: 1em;
+    width:30em;
+    align-self: center;
+    font-family: 'Roboto-mono', monospace;
+    word-wrap: normal;
+    margin-bottom: 2em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 8em;
+    padding-right: 8em;
+    margin-top: 2em;
+}
+
+.skills button {
+    background-color: rgba(179, 248, 237, 0.7);
+    border: none;
+    border-radius: .5em;
+    height: 2.5em;
+    /* box-shadow: 0 3px 2px 1px rgb(1, 41, 29); */
+    font-family: 'Roboto-mono', monospace;
+}
